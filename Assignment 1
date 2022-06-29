@@ -1,0 +1,31 @@
+emp={}
+n=int(input('enter no of employe'))
+for i in range(1,n+1):
+    l=[]
+    name=input('Enter employe name')
+    l. append(name)
+    desig=input('Enter employe desig') 
+    l. append (desig)
+    phno=int(input ('Enter phno'))
+    l. append (phno)
+    emp[i]=l 
+print(emp)
+enter no of employe
+2
+Enter employe name
+Jessy
+Enter employe desig
+Teacher
+Enter phno
+12345
+Enter employe name
+Prameela
+Enter employe desig
+Teacher
+Enter phno
+67890
+{1: ['Jessy', 'Teacher', 12345], 2: ['Prameela', 'Teacher', 67890], 3:}
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
